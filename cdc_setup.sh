@@ -8,7 +8,7 @@ if [ ! -n "$DBNAME" ]; then
   exit 0
 fi
 
-cd ~/cdc_tools/src
+cd ./src
 
 DB2DIR=`db2level | grep "Product is installed at" |  awk -F 'Product is installed at ' '{print $2}' | awk -F \" '{print $2}'`
 
