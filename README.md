@@ -2,8 +2,7 @@
 - 通过以下脚本，可以一键初始化 Db2 ASN Capture 程序。
 
 ```
-/bin/bash -c "$(curl -fsSL https://gitee.com/clougence/db2-cdc-tools/raw/master/script/install.sh)"
-
+/bin/bash -c "$(curl -fsSL https://github.com/hellojuantu/db2-cdc-tools/blob/master/script/install.sh)"
 ```
 - 运行脚本，<db_name> 需要替换为数据库名 。
 ```
